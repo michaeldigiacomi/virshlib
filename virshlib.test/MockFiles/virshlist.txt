@@ -1,0 +1,13 @@
+﻿ Id    Name                           State
+----------------------------------------------------
+ 1     U18-Nginx                      running
+ 2     U18-Prometheus                 running
+ 3     U18-Jenkins                    running
+ 5     U18-Dokku                      running
+ 8     U18-VPN                        running
+ 9     U18-chefserver                 running
+ 10    U18-cheftest                   running
+ 16    win2k12r2                      running
+ 17    win2k12-template               running
+ -     U18-Temp-ext                   shut off
+ -     U18-Template                   shut off

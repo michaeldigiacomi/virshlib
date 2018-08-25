@@ -1,0 +1,243 @@
+﻿<sysinfo type='smbios'>
+  <bios>
+    <entry name='vendor'>IBM Corp.</entry>
+    <entry name='version'>-[D6E160AUS-1.18]-</entry>
+    <entry name='date'>07/24/2013</entry>
+    <entry name='release'>0.0</entry>
+  </bios>
+  <system>
+    <entry name='manufacturer'>IBM</entry>
+    <entry name='product'>IBM System x -[794772U]-</entry>
+    <entry name='version'>00</entry>
+    <entry name='serial'>99D0167</entry>
+    <entry name='uuid'>3E678D70-A41E-11DE-8CDC-00215EC793CC</entry>
+    <entry name='sku'>XxXxXxX</entry>
+    <entry name='family'>System x</entry>
+  </system>
+  <baseBoard>
+    <entry name='manufacturer'>IBM</entry>
+    <entry name='product'>49Y6498</entry>
+    <entry name='version'>(none)</entry>
+    <entry name='serial'>99C15G</entry>
+    <entry name='asset'>(none)</entry>
+    <entry name='location'>Rear Bottom</entry>
+  </baseBoard>
+  <processor>
+    <entry name='socket_destination'>Node 1 Socket 1</entry>
+    <entry name='type'>Central Processor</entry>
+    <entry name='family'>Xeon</entry>
+    <entry name='manufacturer'>Intel(R) Corporation</entry>
+    <entry name='signature'>Type 0, Family 6, Model 26, Stepping 5</entry>
+    <entry name='version'>Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz</entry>
+    <entry name='external_clock'>6400 MHz</entry>
+    <entry name='max_speed'>4400 MHz</entry>
+    <entry name='status'>Populated, Enabled</entry>
+    <entry name='serial_number'>Not Specified</entry>
+    <entry name='part_number'>Not Specified</entry>
+  </processor>
+  <processor>
+    <entry name='socket_destination'>Node 1 Socket 2</entry>
+    <entry name='type'>Central Processor</entry>
+    <entry name='family'>Xeon</entry>
+    <entry name='manufacturer'>Intel(R) Corporation</entry>
+    <entry name='signature'>Type 0, Family 6, Model 26, Stepping 5</entry>
+    <entry name='version'>Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz</entry>
+    <entry name='external_clock'>6400 MHz</entry>
+    <entry name='max_speed'>4400 MHz</entry>
+    <entry name='status'>Populated, Enabled</entry>
+    <entry name='serial_number'>Not Specified</entry>
+    <entry name='part_number'>Not Specified</entry>
+  </processor>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM01</entry>
+    <entry name='bank_locator'>BANK01</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>98AC9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM02</entry>
+    <entry name='bank_locator'>BANK02</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>6EAD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM03</entry>
+    <entry name='bank_locator'>BANK03</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>65AD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM04</entry>
+    <entry name='bank_locator'>BANK04</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>92AD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM05</entry>
+    <entry name='bank_locator'>BANK05</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>73AD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM06</entry>
+    <entry name='bank_locator'>BANK06</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>ABAD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM07</entry>
+    <entry name='bank_locator'>BANK07</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>AAAD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM08</entry>
+    <entry name='bank_locator'>BANK08</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>C6AC9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM09</entry>
+    <entry name='bank_locator'>BANK09</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>844B9513</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM10</entry>
+    <entry name='bank_locator'>BANK10</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>7AD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM11</entry>
+    <entry name='bank_locator'>BANK11</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>624B9513</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM12</entry>
+    <entry name='bank_locator'>BANK12</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>744B9513</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM13</entry>
+    <entry name='bank_locator'>BANK13</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>6A4B9513</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM14</entry>
+    <entry name='bank_locator'>BANK14</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>72AD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM15</entry>
+    <entry name='bank_locator'>BANK15</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>6AAD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+  <memory_device>
+    <entry name='size'>8192 MB</entry>
+    <entry name='form_factor'>DIMM</entry>
+    <entry name='locator'>DIMM16</entry>
+    <entry name='bank_locator'>BANK16</entry>
+    <entry name='type'>Other</entry>
+    <entry name='type_detail'>Unknown</entry>
+    <entry name='speed'>800 MT/s</entry>
+    <entry name='manufacturer'>Samsung</entry>
+    <entry name='serial_number'>8AAD9413</entry>
+    <entry name='part_number'>M393B1K70DH0-YK0</entry>
+  </memory_device>
+</sysinfo>
