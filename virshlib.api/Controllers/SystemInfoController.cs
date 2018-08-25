@@ -26,7 +26,7 @@ namespace virshlib.api.Controllers
                 StartInfo = new ProcessStartInfo
                 {
                     FileName = "/usr/bin/virsh",
-		    Arguments = $"sysinfo",
+		            Arguments = $"sysinfo",
                     RedirectStandardOutput = true,
                     UseShellExecute = false,
                     CreateNoWindow = true,
