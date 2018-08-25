@@ -35,6 +35,7 @@ namespace virshlib.api.Controllers
             process.Start();
             string result = process.StandardOutput.ReadToEnd();
             process.WaitForExit();
+            Console.Write(result);
 
             return sysinf.ParseModels(result);
         }
