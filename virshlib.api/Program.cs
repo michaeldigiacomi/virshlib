@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
+using Swashbuckle.AspNetCore.Swagger;
+
 namespace virshlib.api
 {
     public class Program
