@@ -11,6 +11,7 @@ namespace virshlib.Models
         public Dictionary<string, string> baseboard;
         public List<Dictionary<string, string>> processor;
         public List<Dictionary<string, string>> memory;
+        public string SuccessMessage;
 
         public SystemInfoModel()
         {

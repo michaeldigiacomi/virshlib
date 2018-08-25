@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "virshlib", "virshlib\virshlib.csproj", "{58591147-4026-470F-BFD5-7D3DB95E59A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "virshlib.test", "virshlib.test\virshlib.test.csproj", "{6ED9B7DE-43B2-40DB-A464-CCD917B89326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "virshlib.test", "virshlib.test\virshlib.test.csproj", "{6ED9B7DE-43B2-40DB-A464-CCD917B89326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "virshlib.api", "virshlib.api\virshlib.api.csproj", "{6B769A83-5BCF-41A9-A139-29B51ABD6D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6ED9B7DE-43B2-40DB-A464-CCD917B89326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED9B7DE-43B2-40DB-A464-CCD917B89326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED9B7DE-43B2-40DB-A464-CCD917B89326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B769A83-5BCF-41A9-A139-29B51ABD6D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B769A83-5BCF-41A9-A139-29B51ABD6D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B769A83-5BCF-41A9-A139-29B51ABD6D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B769A83-5BCF-41A9-A139-29B51ABD6D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
