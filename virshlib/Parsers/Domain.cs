@@ -19,10 +19,10 @@ namespace virshlib.Parsers
                 try
                 {
                     string domainText = commandTextSplit[i];
-                    string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");
-
-                    if (domainValues[2] != null)
+                    if (string.IsNullOrWhiteSpace(domainText))
                     {
+                        string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");
+
                         DomainModel model = new DomainModel();
                         model.ID = domainValues[0].Trim();
                         model.Name = domainValues[1].Trim();
