@@ -21,7 +21,7 @@ namespace virshlib.Parsers
                     string domainText = commandTextSplit[i];
                     string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");
 
-                    if (domainValues[2] == null)
+                    if (domainValues[2] != null)
                     {
                         DomainModel model = new DomainModel();
                         model.ID = domainValues[0].Trim();
