@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace virshlib.Parsers
 {
@@ -23,7 +24,7 @@ namespace virshlib.Parsers
                 if (!string.IsNullOrWhiteSpace(line))
                 {
                     string[] keyval = line.Split(':');
-                    DomInfo.Add(keyval[0].Trim().Replace(" ","_"), keyval[1].Trim());
+                    DomInfo.Add(Regex.Replace(keyval[0].Trim(), @"[^0-9a-zA-Z]+", ""), keyval[1].Trim());
                 }
             }
 
