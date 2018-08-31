@@ -28,7 +28,7 @@ namespace virshlib.api.Controllers
         }
 
         // GET: api/SystemInfo
-        [HttpGet]
+        [HttpGet("{Name}")]
         public Dictionary<string,string> Get(string Name)
         {
             try
