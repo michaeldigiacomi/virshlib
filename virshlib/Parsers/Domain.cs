@@ -13,9 +13,7 @@ namespace virshlib.Parsers
             Console.WriteLine(commandText);
 
             List<DomainModel> DomainList = new List<DomainModel>();
-            string[] commandTextSplit = commandText.Split(Environment.NewLine);
-
-            
+            string[] commandTextSplit = commandText.Split(Environment.NewLine); 
 
             for(int i= 2; i<commandTextSplit.Length; i++)
             {
@@ -23,10 +21,9 @@ namespace virshlib.Parsers
                 {
                     string domainText = commandTextSplit[i];
 
-                    Console.WriteLine(domainText);
-
-                    if (string.IsNullOrWhiteSpace(domainText))
+                    if (!string.IsNullOrWhiteSpace(domainText))
                     {
+			Console.WriteLine("Record " + i + ": " + domainText);
 
                         string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");
 

@@ -15,7 +15,8 @@ namespace virshlib.Parsers
             }
 
             string[] commandTextSplit = commandText.Split(Environment.NewLine);
-            Dictionary<string, string> DomInfo = new Dictionary<string, string>();
+            
+	    Dictionary<string, string> DomInfo = new Dictionary<string, string>();
 
             foreach (string line in commandTextSplit)
             {
