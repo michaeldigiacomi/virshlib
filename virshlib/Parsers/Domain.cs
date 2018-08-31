@@ -15,7 +15,7 @@ namespace virshlib.Parsers
             List<DomainModel> DomainList = new List<DomainModel>();
             string[] commandTextSplit = commandText.Split(Environment.NewLine);
 
-            Console.WriteLine(commandTextSplit.Length);
+            Console.WriteLine(commandTextSplit);
 
             for(int i= 2; i<commandTextSplit.Length; i++)
             {
