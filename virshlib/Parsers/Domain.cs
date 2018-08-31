@@ -25,6 +25,8 @@ namespace virshlib.Parsers
 
                     if (string.IsNullOrWhiteSpace(domainText))
                     {
+                        Console.WriteLine(domainText);
+
                         string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");
 
                         DomainModel model = new DomainModel();
@@ -37,7 +39,7 @@ namespace virshlib.Parsers
                 }
                 catch (Exception error)
                 {
-                    throw;
+                    throw error;
                 }
             }
 
