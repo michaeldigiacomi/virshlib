@@ -23,7 +23,7 @@ namespace virshlib.Parsers
                 if (!string.IsNullOrWhiteSpace(line))
                 {
                     string[] keyval = line.Split(':');
-                    DomInfo.Add(keyval[0].Trim(), keyval[1].Trim());
+                    DomInfo.Add(keyval[0].Trim().Replace(" ","-"), keyval[1].Trim());
                 }
             }
 
