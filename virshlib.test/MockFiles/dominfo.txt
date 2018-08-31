@@ -1,0 +1,15 @@
+﻿Id:             1
+Name:           U18-Nginx
+UUID:           541c50d0-855d-4ecd-b175-b1be6b81756c
+OS Type:        hvm
+State:          running
+CPU(s):         4
+CPU time:       168605.8s
+Max memory:     4194304 KiB
+Used memory:    4194304 KiB
+Persistent:     yes
+Autostart:      disable
+Managed save:   no
+Security model: apparmor
+Security DOI:   0
+Security label: libvirt-541c50d0-855d-4ecd-b175-b1be6b81756c (enforcing)

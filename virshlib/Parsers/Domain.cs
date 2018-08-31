@@ -8,17 +8,21 @@ namespace virshlib.Parsers
 {
     public class Domain
     {
-        public List<DomainModel> ParseModels(string commandText)
+        public List<DomainModel> Parse(string commandText)
         {
 
             List<DomainModel> DomainList = new List<DomainModel>();
             string[] commandTextSplit = commandText.Split(Environment.NewLine);
+
+            Console.WriteLine(commandTextSplit.Length);
 
             for(int i= 2; i<commandTextSplit.Length; i++)
             {
                 try
                 {
                     string domainText = commandTextSplit[i];
+
+
                     if (string.IsNullOrWhiteSpace(domainText))
                     {
                         string[] domainValues = System.Text.RegularExpressions.Regex.Split(domainText, @"\s{2,}");

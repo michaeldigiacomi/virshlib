@@ -9,7 +9,7 @@ namespace virshlib.Parsers
 {
     public class SystemInfo
     {
-        public SystemInfoModel ParseModels(string commandText)
+        public SystemInfoModel Parse(string commandText)
         {
             SystemInfoModel SysInfo = new SystemInfoModel();
 

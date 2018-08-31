@@ -15,7 +15,7 @@ namespace virshlib.test
     public class SystemInfoTests
     {
         [Fact]
-        public void testOutputParse()
+        public void TestParse()
         {
             SystemInfo TestParseModel = new SystemInfo();
 
@@ -23,7 +23,7 @@ namespace virshlib.test
         
             Console.Write(virshSystemInfo);
 
-            SystemInfoModel result = TestParseModel.ParseModels(virshSystemInfo);
+            SystemInfoModel result = TestParseModel.Parse(virshSystemInfo);
 
             Assert.NotNull(result);
         }

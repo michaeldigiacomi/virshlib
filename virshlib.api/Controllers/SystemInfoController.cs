@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using virshlib.Helpers;
 using virshlib.Models;
 using virshlib.Parsers;
 
@@ -19,25 +19,11 @@ namespace virshlib.api.Controllers
         [HttpGet]
         public SystemInfoModel Get()
         {
-            SystemInfo sysinf = new SystemInfo();
+            UnixCmdHelper _cmd = new UnixCmdHelper();
 
-            var process = new Process()
-            {
-                StartInfo = new ProcessStartInfo
-                {
-                    FileName = "/usr/bin/virsh",
-		            Arguments = $"sysinfo",
-                    RedirectStandardOutput = true,
-                    UseShellExecute = false,
-                    CreateNoWindow = true,
-                }
-            };
-            process.Start();
-            string result = process.StandardOutput.ReadToEnd();
-            process.WaitForExit();
-            Console.Write(result);
+            var response = _cmd.ExecuteShellCMD("/usr/bin/virsh", $"sysinfo");
 
-            return sysinf.ParseModels(result);
+            return new SystemInfo().Parse(response);
         }
     }
 }

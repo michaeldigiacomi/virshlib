@@ -1,31 +1,32 @@
 using System;
 using Xunit;
 
-using virshlib.Parsers;
+using virshlib;
 using virshlib.Models;
+using virshlib.Parsers;
 
 using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
 
+
 namespace virshlib.test
 {
-    public class DomainTests
+    public class DomInfoTests
     {
         [Fact]
         public void TestParse()
         {
-            Domain TestParseModel = new Domain();
+            DomInfo DomInfoParser = new DomInfo();
 
-            string virshListFile = GetInputFile("..\\..\\..\\MockFiles\\virshlist.txt");
+            string virshSystemInfo = GetInputFile("..\\..\\..\\MockFiles\\dominfo.txt");
         
-            Console.Write(virshListFile);
+            Console.Write(virshSystemInfo);
 
-            List<DomainModel> result = TestParseModel.Parse(virshListFile);
+            Dictionary<string,string> result = DomInfoParser.Parse(virshSystemInfo);
 
             Assert.NotNull(result);
-            Assert.NotEmpty(result);
-            Assert.Equal("1", result[0].ID);
+            Assert.True(result.ContainsKey("Name"));
         }
 
 
