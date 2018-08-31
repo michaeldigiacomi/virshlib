@@ -13,7 +13,7 @@ namespace virshlib.api.Controllers
     public class DomainStateController : ControllerBase
     {
         // GET: api/DomainState/5
-        [HttpGet("{domain}/{action}", Name = "Get")]
+        [HttpGet()]
         public string Get(string domain, string action)
         {
             UnixCmdHelper _cmd = new UnixCmdHelper();
