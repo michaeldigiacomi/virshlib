@@ -10,6 +10,7 @@ namespace virshlib.Parsers
     {
         public List<DomainModel> Parse(string commandText)
         {
+            Console.WriteLine(commandText);
 
             List<DomainModel> DomainList = new List<DomainModel>();
             string[] commandTextSplit = commandText.Split(Environment.NewLine);
