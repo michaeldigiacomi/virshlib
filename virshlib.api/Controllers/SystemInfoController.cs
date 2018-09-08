@@ -23,7 +23,9 @@ namespace virshlib.api.Controllers
 
             var response = _cmd.ExecuteShellCMD("/usr/bin/virsh", $"sysinfo");
 
+            Console.WriteLine(response);
+
             return new SystemInfo().Parse(response);
-        }
+        }   
     }
 }

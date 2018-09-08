@@ -15,5 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\virshlib\virshlib.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+       
+  </ItemGroup>
 </Project>

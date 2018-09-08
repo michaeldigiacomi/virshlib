@@ -17,7 +17,7 @@ namespace virshlib.test
         {
             Domain TestParseModel = new Domain();
 
-            string virshListFile = GetInputFile("..\\..\\..\\MockFiles\\virshlist.txt");
+            string virshListFile = GetInputFile("../../../MockFiles/virshlist.txt");
         
             Console.Write(virshListFile);
 

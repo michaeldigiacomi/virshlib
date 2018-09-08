@@ -19,7 +19,7 @@ namespace virshlib.test
         {
             SystemInfo TestParseModel = new SystemInfo();
 
-            string virshSystemInfo = GetInputFile("..\\..\\..\\MockFiles\\virshsysinfo.txt");
+            string virshSystemInfo = GetInputFile("../../../MockFiles/virshsysinfo.txt");
         
             Console.Write(virshSystemInfo);
 

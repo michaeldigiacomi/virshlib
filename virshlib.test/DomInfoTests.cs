@@ -19,7 +19,7 @@ namespace virshlib.test
         {
             DomInfo DomInfoParser = new DomInfo();
 
-            string virshSystemInfo = GetInputFile("..\\..\\..\\MockFiles\\dominfo.txt");
+            string virshSystemInfo = GetInputFile("../../../MockFiles/dominfo.txt");
         
             Console.Write(virshSystemInfo);
 
