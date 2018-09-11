@@ -11,7 +11,7 @@ namespace virshlib.api.Controllers {
     [Route ("api/[controller]")]
     [ApiController]
     public class DomainResManagerController : ControllerBase {
-        [HttpGet ("{domain}/{state}")]
+        [HttpPost ()]
         public Dictionary<string, string> Get (EditResourceModel UpdatedResources) {
 
             UnixCmdHelper _cmd = new UnixCmdHelper ();
